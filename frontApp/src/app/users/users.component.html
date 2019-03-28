@@ -1,0 +1,17 @@
+<table class="uk-table uk-table-hover uk-table-divider">
+  <thead>
+      <tr>
+          <th>Id</th>
+          <th>Firstname</th>
+          <th>Lastname</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let user of list">
+          <td>{{user.id}}</td>
+          <td>{{user.firstName}}</td>
+          <td>{{user.lastName}}</td>
+      </tr>
+      
+  </tbody>
+</table>
